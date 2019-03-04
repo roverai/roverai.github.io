@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Demo on Building a rover</title>
-    <link>https://roverai.github.io/tags/demo/</link>
-    <description>Recent content in Demo on Building a rover</description>
+    <title>Prebuild on RoverAI - How to build a rover</title>
+    <link>https://roverai.github.io/tags/prebuild/</link>
+    <description>Recent content in Prebuild on RoverAI - How to build a rover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://roverai.github.io/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://roverai.github.io/tags/prebuild/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Orders and cost</title>
-      <link>https://roverai.github.io/2019/03/orders-and-cost/</link>
+      <title>Parts ordered, money payed</title>
+      <link>https://roverai.github.io/2019/03/parts-ordered-money-payed/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://roverai.github.io/2019/03/orders-and-cost/</guid>
+      <guid>https://roverai.github.io/2019/03/parts-ordered-money-payed/</guid>
       <description>&lt;p&gt;The first step to every project nowadays is ordering everything you need in order to plan and design while waiting for delivery. Due to a different location, we had to do some modifications to the list of parts, while we also tried to push the total cost of the project down a bit. This summarizes what we ordered and why, as well as how much it all cost.&lt;/p&gt;</description>
     </item>
     
