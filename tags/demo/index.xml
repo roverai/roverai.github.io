@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo on Building a rover</title>
+    <link>https://broukej.cz/rover/tags/demo/</link>
+    <description>Recent content in Demo on Building a rover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://broukej.cz/rover/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Orders and cost</title>
+      <link>https://broukej.cz/rover/2019/03/orders-and-cost/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://broukej.cz/rover/2019/03/orders-and-cost/</guid>
+      <description>&lt;p&gt;The first step to every project nowadays is ordering everything you need in order to plan and design while waiting for delivery. Due to a different location, we had to do some modifications to the list of parts, while we also tried to push the total cost of the project down a bit. This summarizes what we ordered and why, as well as how much it all cost.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://broukej.cz/rover/2019/02/introduction/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://broukej.cz/rover/2019/02/introduction/</guid>
+      <description>&lt;p&gt;What are we building? Why? Based on which project? How will it look like?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
