@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://roverai.github.io/2019/03/test-from-maksim/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://roverai.github.io/2019/02/introduction/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
@@ -34,6 +39,12 @@
   
   <url>
     <loc>https://roverai.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://roverai.github.io/tags/guv/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
