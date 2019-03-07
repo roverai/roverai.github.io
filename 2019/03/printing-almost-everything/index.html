@@ -127,6 +127,28 @@ RoverAI - How to build a rover
 
 <p>The amount of slicing which had to be done was astounding to us. There is <strong>a lot</strong> of parts to print, many of them having to be printed several times with the occasional mirroring. Since we tried to minimize the amount of printing runs, some prints required a serious skill in tetris, far beyond the capabilities of the slicer we used. In the end, we managed to slice the whole thing into TODO NUMBER print runs with a run time of 15-20 hours.</p>
 
+<p>Everything was very nicely prepared by the original author, which made it a surprise when we found out that some of  the parts were not always rotated exactly as they should be, but several degrees off. The fact that we didn&rsquo;t notice this while slicing resulted in one failed print which we luckily managed to stop before wasting too much filament. (To be exact, <em>front corners</em> were off by 6.75 degrees while <em>rear corners</em> were off by 2.25 degrees.)</p>
+
+<h3 id="printing">Printing</h3>
+
+<p>We srarted with the default profile (0.2 SPEED) for the Prusa&nbsp;i3&nbsp;mk3 and we modified it according to the original guide:</p>
+
+<pre><code>    Nozzle Diameter: 0.4mm 
+    Layer Height: 0.3mm
+    Number of perimeters: 3. 
+    Number of top/bottom layers: 4. 
+    Infill type: Triangular
+    Infill percentage: 30%
+</code></pre>
+
+<p>The only printing failure not caused by wrong slicing occured when one of the <em>differential braces</em> broke upon removal from the heat-plate. Luckily, this was one of the shortest prints.</p>
+
+<ul>
+<li>Number of prints: 13</li>
+<li>Total print time: 186 hours</li>
+<li>Weight of used filament: ~2 kg</li>
+</ul>
+
     
 
     
