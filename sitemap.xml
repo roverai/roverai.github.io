@@ -3,18 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://roverai.github.io/2019/03/printing-almost-everything/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://roverai.github.io/2019/03/parts-ordered-money-payed/</loc>
+    <loc>https://roverai.github.io/2019/03/orders-and-cost/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://roverai.github.io/2019/03/test-from-maksim/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,13 +13,13 @@
   </url>
   
   <url>
-    <loc>https://roverai.github.io/tags/3d-printing/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://roverai.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>https://roverai.github.io/about/</loc>
+    <loc>https://roverai.github.io/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -42,32 +32,20 @@
   </url>
   
   <url>
-    <loc>https://roverai.github.io/tags/guv/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://roverai.github.io/post/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://roverai.github.io/tags/prebuild/</loc>
+    <loc>https://roverai.github.io/tags/demo/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://roverai.github.io/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <loc>https://roverai.github.io/post/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://roverai.github.io/tags/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
