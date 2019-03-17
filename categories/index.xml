@@ -6,6 +6,7 @@
     <description>Recent content in Categories on RoverAI - How to build a rover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>We are building a model of a Mars rover and we post our progress here.</copyright>
     
 	<atom:link href="https://roverai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
