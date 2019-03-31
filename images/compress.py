@@ -32,20 +32,22 @@ def make_way(directory):
     except OSError as e:
         if e.errno != errno.EEXIST:
             raise
-
-folder = 'printing_progress'
-out_folder = os.path.join(folder, 'compressed')
-make_way(out_folder)
-for file in os.listdir(folder):
-    if os.path.splitext(file)[1].lower() in ('.jpg', '.jpeg'):
-        in_path = os.path.join(folder,file)
-        print(in_path)
-        out_path = os.path.join(out_folder, file)
-        print(out_path)
-        thumb_path = os.path.join(out_folder, file)
-        thumb_path = thumb_path.split('.')
-        thumb_path[-2] += '-thumb'
-        thumb_path = '.'.join(thumb_path)
-        print(thumb_path)
-        print(compressMeReturn(in_path, out_path, 1600))
-        print(compressMeReturn(in_path, thumb_path, 400))
+def compress_folder(folder):
+    out_folder = os.path.join(folder, 'compressed')
+    make_way(out_folder)
+    for file in os.listdir(folder):
+        if os.path.splitext(file)[1].lower() in ('.jpg', '.jpeg'):
+            in_path = os.path.join(folder,file)
+            print(in_path)
+            out_path = os.path.join(out_folder, file)
+            print(out_path)
+            thumb_path = os.path.join(out_folder, file)
+            thumb_path = thumb_path.split('.')
+            thumb_path[-2] += '-thumb'
+            thumb_path = '.'.join(thumb_path)
+            print(thumb_path)
+            print(compressMeReturn(in_path, out_path, 1600))
+            print(compressMeReturn(in_path, thumb_path, 400))
+            
+compress_folder('printing_progress')
+compress_folder('printing_done')
