@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Spinning a wheel" />
+<meta property="og:description" content="Hey, we are back after half a year! At this point, we have finished 3D printing all of the necessary parts. We have also received all the orders from Aliexpress and we started to look for a local swiss shop, where we could order screws, bolts and washers for a reasonable price. Then it was time to assemble the main body of the rover and try to spin a wheel." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://roverai.github.io/2019/10/spinning-a-wheel/" />
+<meta property="article:published_time" content="2019-10-28T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-10-28T00:00:00&#43;00:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Spinning a wheel"/>
+<meta name="twitter:description" content="Hey, we are back after half a year! At this point, we have finished 3D printing all of the necessary parts. We have also received all the orders from Aliexpress and we started to look for a local swiss shop, where we could order screws, bolts and washers for a reasonable price. Then it was time to assemble the main body of the rover and try to spin a wheel."/>
+
+
+
+    <link rel="canonical" href="https://roverai.github.io/2019/10/spinning-a-wheel/">
+
+    <title>
+      
+        Spinning a wheel | RoverAI - How to build a rover
+      
+    </title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://roverai.github.io/css/style.css" rel="stylesheet">
+
+    
+
+    
+
+    
+<script type="text/javascript">
+    var _paq = window._paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//analytics.broukej.cz/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '6']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  
+  
+  </head>
+  <body>
+    
+      
+
+<header class="blog-header">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="/">
+            <img src="/images/logo3.png" width="30" height="30" class="d-inline-block align-top"
+    alt="">
+RoverAI - How to build a rover
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+                
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/">Home</a>
+                    
+                </li>
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/about/">About</a>
+                    
+                </li>
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/parts/">Parts</a>
+                    
+                </li>
+                
+            </ul>
+            
+        </div>
+    </nav>
+</header>
+
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8 blog-main">
+
+          
+
+<header>
+    <h2 class="blog-post-title">
+    <a class="text-dark" href="/2019/10/spinning-a-wheel/">Spinning a wheel</a>
+</h2>
+
+    
+
+
+<div class="blog-post-date text-secondary">
+    
+        <time datetime="2019-10-28">Oct 28, 2019</time>
+    
+    
+</div>
+
+    
+    
+    <hr>
+</header>
+<article class="blog-post">
+    <p>Hey, we are back after half a year! At this point, we have finished 3D printing all of the necessary parts. We have also received all the orders from Aliexpress and we started to look for a local swiss shop, where we could order screws, bolts and washers for a reasonable price. Then it was time to assemble the main body of the rover and try to spin a wheel.</p>
+
+<h3 id="double-checking-the-inventory">Double-checking the inventory</h3>
+
+<p>We found most of what we were looking for on the website of Bossard (with a little help from the kind people at <a href="https://robopoly.epfl.ch/">Robopoly</a>). But while calculating the number of items and double-checking parameters of the parts, we noticed a problem: the screws that are supposed to connect the aluminum extrusions with the 3D printed parts have a smaller diameter than the ridge of the extrusions &mdash; our extrusions from Aliexpress have a profile incompatible with M3 nuts. This means the nuts don&rsquo;t stay inside and it is impossible to use the original construction proposed by Roger.</p>
+
+<h3 id="workaround-of-a-different-extrusion-profile">Workaround of a different extrusion profile</h3>
+
+<p>We tried a few things inclusing a design of new 3D printed inserts/spacers, but after some time spent on these experiments, we ended up removing all of the 3D printed spacers and adding a wide M3 washer on the inside of the extrusion, which prevented the M3 nuts from falling out. This decision comes at a price of not having anything to hold the nuts in place. We doubted this would work, but surprisingly enough, after you tighten the nut to a certain degree, it no longer slips and there is no need to hold it in place when tightening further. This might come back to bite us later on, but for now it is an acceptable solution.</p>
+
+<h3 id="assembling-the-main-body">Assembling the main body</h3>
+
+<p>With this problem solved (or at least postponed), we were finally able to assemble the body. Counting how many washers have to be inserted for future connections before assembling everything together was a bit tedious, but we finally arrived at something that started to reseble the future look of our rover. Have a look:</p>
+
+<p>
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://roverai.github.io//images/body_and_wheels/compressed//body_01-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="https://roverai.github.io//images/body_and_wheels/compressed//body_01-thumb.jpg" alt="Body 01" />
+				    </div>
+			      <figcaption>
+		          <p>Body 01</p>
+			      </figcaption>
+				    <a href="https://roverai.github.io//images/body_and_wheels/compressed//body_01.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://roverai.github.io//images/body_and_wheels/compressed//body_02-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="https://roverai.github.io//images/body_and_wheels/compressed//body_02-thumb.jpg" alt="Body 02" />
+				    </div>
+			      <figcaption>
+		          <p>Body 02</p>
+			      </figcaption>
+				    <a href="https://roverai.github.io//images/body_and_wheels/compressed//body_02.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
+
+<h3 id="spinning-the-wheel">Spinning the wheel</h3>
+
+<p>While thinking about the mechanical assembly of the body, we decided to try out some of the electronics. The most important parts of our rover will be the wheels, so we decided to try and give them a spin! We haven&rsquo;t managed to cut our steel rods to the desired lengths yet, so we constructed a very long wheel axis and decided that testing the wheels on the following construction would be enough.</p>
+
+<p>After the hardware was finished, we connected the motor to the control board and it was time to tell the board what to do with our wheel. It turns out that the software provided with the motors is only Windows compatible and we didn&rsquo;t have a Windows computer at hand. One Google search was enough to fix the problem and this is where we would like to thank <a href="https://github.com/maximkulkin/">Maxim Kulkin</a> for his <a href="https://github.com/maximkulkin/lewansoul-lx16a">program</a> for controlling the LX16a motors, which took about 30 seconds to install and worked like a charm on our macOS computers.</p>
+
+<p><img src="/post/images/spin_crop.gif" alt="Video of a spinning wheel" /></p>
+
+<h3 id="what-s-next">What&rsquo;s next</h3>
+
+<p>The next thing we are missing are the shafts for all of the rotating elements. We have the rods, but we need to find a way to cut them to the required lengths and make the ridges in them for the stoppers which keep them in place. Many of the shafts also need to be flattened in some parts in order for the holding screws to have a reliable grip on them during their rotation.</p>
+
+<p>After that, we should be able to construct the Rocker-Bogie mechanism and start thinking about wiring that needs to lead to all the motors, as well as the rest of the electronics.</p>
+
+    
+
+    
+
+
+</article>
+
+
+
+        </div>
+
+        <aside class="col-12 col-lg-3 ml-auto blog-sidebar">
+    
+        
+
+
+<section>
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+        
+        <li>
+            <a href="/2019/10/spinning-a-wheel/">Spinning a wheel</a>
+        </li>
+        
+        <li>
+            <a href="/2019/03/3d-print-all-the-things/">3D print all the things!</a>
+        </li>
+        
+        <li>
+            <a href="/2019/03/ordering-parts/">Ordering parts</a>
+        </li>
+        
+        <li>
+            <a href="/post/">Posts</a>
+        </li>
+        
+    </ol>
+</section>
+
+    
+    
+        <section>
+    
+        
+    
+</section>
+    
+    <h4>Related links</h4>
+    <ol class="list-unstyled">
+        <li><a href="https://hackaday.io/project/158208-sawppy-the-rover">Sawppy the Rover</a></li>
+        <li><a href="https://opensourcerover.jpl.nasa.gov/">JPL's Open Source Rover</a></li>
+        <li><a href="https://robopoly.epfl.ch/">Robopoly EPFL</a></li>
+    </ol>
+</aside>
+
+      </div>
+    </div>
+    
+
+    
+      
+
+
+
+
+
+
+
+<footer class="blog-footer w-100">
+    <nav class="navbar navbar-light bg-light">
+        
+        <p class="w-100 text-center">We are building a model of a Mars rover and we post our progress here.</p>
+    </nav>
+</footer>
+
+    
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

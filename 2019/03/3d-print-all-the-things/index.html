@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <meta property="og:title" content="3D print all the things!" />
-<meta property="og:description" content="At least half of the rover is going to be 3D printed. Considering the original author was printing for several weeks to make the whole rover, we decided to start early. This post outlines the details of transforming 3&nbsp;kg of plastic wire into beautiful mechanical parts. You can skip this if you&rsquo;re not into 3D printing ;)." />
+<meta property="og:description" content="At least half of the rover is going to be 3D printed. Considering the original author was printing for several weeks to make the whole rover, we decided to start early. This post outlines the details of transforming 3&nbsp;kg of plastic wire into beautiful mechanical parts. You can skip this if you&rsquo;re not into 3D printing. Scroll to the end of the post to see pictures." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://roverai.github.io/2019/03/3d-print-all-the-things/" />
 <meta property="article:published_time" content="2019-03-17T00:00:00&#43;00:00"/>
@@ -14,7 +14,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="3D print all the things!"/>
-<meta name="twitter:description" content="At least half of the rover is going to be 3D printed. Considering the original author was printing for several weeks to make the whole rover, we decided to start early. This post outlines the details of transforming 3&nbsp;kg of plastic wire into beautiful mechanical parts. You can skip this if you&rsquo;re not into 3D printing ;)."/>
+<meta name="twitter:description" content="At least half of the rover is going to be 3D printed. Considering the original author was printing for several weeks to make the whole rover, we decided to start early. This post outlines the details of transforming 3&nbsp;kg of plastic wire into beautiful mechanical parts. You can skip this if you&rsquo;re not into 3D printing. Scroll to the end of the post to see pictures."/>
 
 
 
@@ -35,6 +35,21 @@
     
 
     
+<script type="text/javascript">
+    var _paq = window._paq || [];
+     
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//analytics.broukej.cz/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '6']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  
+  
   </head>
   <body>
     
@@ -108,7 +123,7 @@ RoverAI - How to build a rover
     <hr>
 </header>
 <article class="blog-post">
-    <p>At least half of the rover is going to be 3D printed. Considering the original author was printing for several weeks to make the whole rover, we decided to start early. This post outlines the details of transforming 3&nbsp;kg of plastic wire into beautiful mechanical parts. You can skip this if you&rsquo;re not into 3D printing ;).</p>
+    <p>At least half of the rover is going to be 3D printed. Considering the original author was printing for several weeks to make the whole rover, we decided to start early. This post outlines the details of transforming 3&nbsp;kg of plastic wire into beautiful mechanical parts. You can skip this if you&rsquo;re not into 3D printing. Scroll to the end of the post to see pictures.</p>
 
 <h3 id="before-starting-to-print">Before starting to print</h3>
 
@@ -118,7 +133,9 @@ RoverAI - How to build a rover
 
 <p>The amount of slicing which had to be done was astounding to us. There is <strong>a lot</strong> of parts to print, many of them having to be printed several times with the occasional mirroring. Since we tried to minimize the amount of printing runs, some prints required a serious skill in tetris, far beyond the capabilities of the slicer we used. In the end, we managed to slice the whole thing into 13 print runs with a run time of 15-20 hours.</p>
 
-<p>Everything was very nicely prepared by the original author, which made it a surprise when we found out that some of  the parts were not always rotated exactly as they should be, but several degrees off. The fact that we didn&rsquo;t notice this while slicing resulted in one failed print which we luckily managed to stop before wasting too much filament. (To be exact, <em>front corners</em> were off by 6.75 degrees while <em>rear corners</em> were off by 2.25 degrees.)</p>
+<p>Everything was very nicely prepared by the original author, which made it a surprise when we found out that some of  the parts were not always rotated exactly as they should be, but several degrees off. The fact that we didn&rsquo;t notice this while slicing resulted in one failed print which we luckily managed to stop before wasting too much filament.</p>
+
+<p>After we noticed the mistake, during the next slicing we had to rotate the objects accordingly. We did not know Slic3r Prusa Edition <a href="https://twitter.com/josefprusa/status/1033719313751044096">added the place face on bed feature</a>, so we ended up manually rotating the models. (To be exact, <em>front corners</em> were off by ~6.75 degrees while <em>rear corners</em> were off by ~2.25 degrees.)</p>
 
 <h3 id="printing">Printing</h3>
 
@@ -150,57 +167,35 @@ RoverAI - How to build a rover
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_progress//2019-02-26%2017.31.04.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_progress//2019-02-26%2017.31.04.jpg" alt="2019 02 26 17" />
+				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_1-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_1-thumb.jpg" alt="Wheel mounts 1" />
 				    </div>
 			      <figcaption>
-		          <p>2019 02 26 17</p>
+		          <p>Wheel mounts 1</p>
 			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_progress//2019-02-26%2017.31.04.jpg" itemprop="contentUrl"></a>
+				    <a href="https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_1.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_progress//2019-02-27%2013.46.59.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_progress//2019-02-27%2013.46.59.jpg" alt="2019 02 27 13" />
+				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_2-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_2-thumb.jpg" alt="Wheel mounts 2" />
 				    </div>
 			      <figcaption>
-		          <p>2019 02 27 13</p>
+		          <p>Wheel mounts 2</p>
 			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_progress//2019-02-27%2013.46.59.jpg" itemprop="contentUrl"></a>
+				    <a href="https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_2.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_progress//2019-02-27%2013.47.07.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_progress//2019-02-27%2013.47.07.jpg" alt="2019 02 27 13" />
+				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_3-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_3-thumb.jpg" alt="Wheel mounts 3" />
 				    </div>
 			      <figcaption>
-		          <p>2019 02 27 13</p>
+		          <p>Wheel mounts 3</p>
 			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_progress//2019-02-27%2013.47.07.jpg" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_progress//2019-02-27%2013.47.16.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_progress//2019-02-27%2013.47.16.jpg" alt="2019 02 27 13" />
-				    </div>
-			      <figcaption>
-		          <p>2019 02 27 13</p>
-			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_progress//2019-02-27%2013.47.16.jpg" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_progress//2019-02-27%2016.36.51.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_progress//2019-02-27%2016.36.51.jpg" alt="2019 02 27 16" />
-				    </div>
-			      <figcaption>
-		          <p>2019 02 27 16</p>
-			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_progress//2019-02-27%2016.36.51.jpg" itemprop="contentUrl"></a>
+				    <a href="https://roverai.github.io//images/printing_progress/compressed//wheel_mounts_3.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 </div>
@@ -274,46 +269,24 @@ RoverAI - How to build a rover
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_done//2019-02-27%2016.38.38.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_done//2019-02-27%2016.38.38.jpg" alt="2019 02 27 16" />
+				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_done/compressed//battery_tray-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_done/compressed//battery_tray-thumb.jpg" alt="Battery tray" />
 				    </div>
 			      <figcaption>
-		          <p>2019 02 27 16</p>
+		          <p>Battery tray</p>
 			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_done//2019-02-27%2016.38.38.jpg" itemprop="contentUrl"></a>
+				    <a href="https://roverai.github.io//images/printing_done/compressed//battery_tray.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_done//2019-02-27%2016.38.41.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_done//2019-02-27%2016.38.41.jpg" alt="2019 02 27 16" />
+				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_done/compressed//wheel_mounts-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_done/compressed//wheel_mounts-thumb.jpg" alt="Wheel mounts" />
 				    </div>
 			      <figcaption>
-		          <p>2019 02 27 16</p>
+		          <p>Wheel mounts</p>
 			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_done//2019-02-27%2016.38.41.jpg" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_done//2019-02-28%2008.50.21.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_done//2019-02-28%2008.50.21.jpg" alt="2019 02 28 08" />
-				    </div>
-			      <figcaption>
-		          <p>2019 02 28 08</p>
-			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_done//2019-02-28%2008.50.21.jpg" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://roverai.github.io//images/printing_done//2019-02-28%2008.50.24.jpg');" >
-				      <img itemprop="thumbnail" src="https://roverai.github.io//images/printing_done//2019-02-28%2008.50.24.jpg" alt="2019 02 28 08" />
-				    </div>
-			      <figcaption>
-		          <p>2019 02 28 08</p>
-			      </figcaption>
-				    <a href="https://roverai.github.io//images/printing_done//2019-02-28%2008.50.24.jpg" itemprop="contentUrl"></a>
+				    <a href="https://roverai.github.io//images/printing_done/compressed//wheel_mounts.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 </div>
@@ -343,6 +316,10 @@ RoverAI - How to build a rover
     <ol class="list-unstyled">
         
         <li>
+            <a href="/2019/10/spinning-a-wheel/">Spinning a wheel</a>
+        </li>
+        
+        <li>
             <a href="/2019/03/3d-print-all-the-things/">3D print all the things!</a>
         </li>
         
@@ -365,6 +342,12 @@ RoverAI - How to build a rover
     
 </section>
     
+    <h4>Related links</h4>
+    <ol class="list-unstyled">
+        <li><a href="https://hackaday.io/project/158208-sawppy-the-rover">Sawppy the Rover</a></li>
+        <li><a href="https://opensourcerover.jpl.nasa.gov/">JPL's Open Source Rover</a></li>
+        <li><a href="https://robopoly.epfl.ch/">Robopoly EPFL</a></li>
+    </ol>
 </aside>
 
       </div>

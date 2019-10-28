@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>We are building a model of a Mars rover and we post our progress here.</copyright>
-    <lastBuildDate>Sun, 17 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://roverai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spinning a wheel</title>
+      <link>https://roverai.github.io/2019/10/spinning-a-wheel/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://roverai.github.io/2019/10/spinning-a-wheel/</guid>
+      <description>&lt;p&gt;Hey, we are back after half a year! At this point, we have finished 3D printing all of the necessary parts. We have also received all the orders from Aliexpress and we started to look for a local swiss shop, where we could order screws, bolts and washers for a reasonable price. Then it was time to assemble the main body of the rover and try to spin a wheel.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>3D print all the things!</title>
@@ -18,7 +27,7 @@
       <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://roverai.github.io/2019/03/3d-print-all-the-things/</guid>
-      <description>&lt;p&gt;At least half of the rover is going to be 3D printed. Considering the original author was printing for several weeks to make the whole rover, we decided to start early. This post outlines the details of transforming 3&amp;nbsp;kg of plastic wire into beautiful mechanical parts. You can skip this if you&amp;rsquo;re not into 3D printing ;).&lt;/p&gt;</description>
+      <description>&lt;p&gt;At least half of the rover is going to be 3D printed. Considering the original author was printing for several weeks to make the whole rover, we decided to start early. This post outlines the details of transforming 3&amp;nbsp;kg of plastic wire into beautiful mechanical parts. You can skip this if you&amp;rsquo;re not into 3D printing. Scroll to the end of the post to see pictures.&lt;/p&gt;</description>
     </item>
     
     <item>
